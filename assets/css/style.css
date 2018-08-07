@@ -1,0 +1,62 @@
+body {
+    background-image: url("../images/castle-background.jpg");
+    background-size: cover;
+}
+
+.crystals {
+    float: right;
+    height: 100px;
+    margin: 10px 5px;
+    position: relative; 
+    width: 100px;
+}
+
+#currentTotal{
+    color: white;
+    float: center;
+    font-size: 25pt;
+    height: 100px;
+    line-height: 100px;
+    position: relative;
+    text-align: center;
+    width: 250px;
+}
+
+h1 {
+    color: white;
+    font-size: 25pt;
+    height: 100px;
+    line-height: 35px;
+    padding-left: 30px;
+    padding-top: 30px;
+    width: 250px;
+}
+
+#instructions{
+    color: white;
+    font-size: 14pt;
+    padding-left: 30px;
+    width: 600px;   
+}
+
+#numToMatch{
+    color: white;
+    float: center;
+    font-size:25pt;
+    height: 100px;
+    line-height: 100px;
+    position: relative;
+    text-align: center;
+    width: 250px;   
+}
+
+#winsLosses{
+    color: white;
+    float: center;
+    font-size: 25pt;
+    height: 100px;
+    line-height: 100px;
+    position: relative;
+    text-align: center;
+    width: 250px;  
+}
