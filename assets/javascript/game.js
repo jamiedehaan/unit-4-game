@@ -23,21 +23,9 @@ $(document).ready(function () {
 
         });
 
-        if (currentTotal === numToMatch) {
-        alert("You Win!");
-        wins++;
-        resetGame();
-        }
-
-        if (currentTotal > numToMatch) {
-        alert("You Lose!");
-        losses++;
-        resetGame();
-        }
-
     function resetGame() {
         currentTotal = 0;
-        numToMatch = Math.floor(Math.random() * 120) + 19;
+        numToMatch = Math.floor(Math.random() * 102) + 19;
         $("#blueCrystal").val(Math.floor(Math.random() * 12) + 1);
         $("#greenCrystal").val(Math.floor(Math.random() * 12) + 1);
         $("#purpleCrystal").val(Math.floor(Math.random() * 12) + 1);
@@ -48,4 +36,4 @@ $(document).ready(function () {
         $("#losses").html(losses);
         }
 
-});
+    });
