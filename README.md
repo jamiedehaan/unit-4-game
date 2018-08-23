@@ -9,3 +9,5 @@ There are four crystals. Each crystal is assigned a value. It is possible for mu
 You win the game by matching your total score to the random number, you lose the game if your total score goes above the random number.
 
 Each time the game starts, the random number and the values of each crystal will change.
+
+https://jamiedehaan.github.io/unit-4-game/
